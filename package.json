@@ -1,0 +1,17 @@
+{
+  "name": "pgoress.cli",
+  "version": "1.0.0",
+  "scripts": {
+    "build:prod": "npx tsc && npx tsc-alias",
+    "start:dev": "ts-node ./src/app.ts",
+    "build": "yarn tsc --build",
+    "start": "node ./lib/app.js",
+    "dev": "npx nodemon"
+  },
+  "main": "lib/app.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^18.13.0",
+    "typescript": "^4.9.5"
+  }
+}
