@@ -1,38 +1,9 @@
-import { EventsArgs, ProgressBarEvents } from "../@types/progress";
+import { EventsArgs, IMultiProgressBar, MultiProgressBarEventListener, ProgressBarEvents } from "../types";
 import { IProgressBarOptions, ProgressBar } from "./progressBar";
 
 
 
 
-type MultiProgressBarEventListener = (id: string, args: EventsArgs) => void;
-
-interface IMultiProgressBar {
-    create(
-        id: string,
-        options: IProgressBarOptions,
-    ): void;
-
-
-
-    remove(
-        id: string,
-    ): void;
-
-    tick(
-        id: string,
-        info?: string,
-    ): void;
-
-    increment(
-        { id, by, info }: { id: string; by?: number; info?: string },
-    ): void;
-
-    on(
-        event: ProgressBarEvents,
-        listener: MultiProgressBarEventListener,
-    ): void;
-
-}
 
 
 

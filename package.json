@@ -1,5 +1,5 @@
 {
-  "name": "pgoress.cli",
+  "name": "kedalen-cli-progress-2",
   "version": "1.0.0",
   "scripts": {
     "build:prod": "npx tsc && npx tsc-alias",
@@ -8,10 +8,27 @@
     "start": "node ./lib/app.js",
     "dev": "npx nodemon"
   },
+  "files": [
+    "lib/**/*"
+  ],
+  "keywords": [
+    "cli",
+    "progressbar",
+    "progress",
+    "cli-progress",
+    "cli-progress-bar",
+    "cli-progressbar",
+    "cli-progress-bar",
+    "cli-progressbar"
+  ],
+  "author": "Kedalen",
   "main": "lib/app.js",
   "license": "MIT",
   "devDependencies": {
     "@types/node": "^18.13.0",
     "typescript": "^4.9.5"
+  },
+  "dependencies": {
+    "kedalen-cli-progress": "^1.0.0"
   }
 }

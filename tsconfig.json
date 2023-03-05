@@ -12,6 +12,7 @@
   },
   
   "compileOnSave": true,
-  "include": ["src", "src/**/*"]
+  "include": ["progress", "progress/**/*"],
+  "exclude": ["node_modules", "**/__tests__/*"]
 }
 

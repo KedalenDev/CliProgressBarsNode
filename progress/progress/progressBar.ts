@@ -1,4 +1,4 @@
-import { IProgressBarOptions, EventsArgs, IProgressBar, ProgressBarEvents, BarColors } from "../@types";
+import { IProgressBarOptions, EventsArgs, IProgressBar, ProgressBarEvents, BarColors } from "../types";
 import { calculateEtaInSeconds } from "./helpers";
 
 
